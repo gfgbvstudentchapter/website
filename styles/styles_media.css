@@ -1,0 +1,26 @@
+@media all and (min-width: 300px) {
+    .row,.cards,.wrapper{
+        margin: 0 calc(100%/30)
+    }
+    img{
+        height: rem();
+    }
+    #gototop{
+        display: none;
+    }
+    html,body{
+        overflow: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #oc .ocCards div {
+        margin: 20px auto;
+    }         
+    .container{
+        width:100%;
+    }
+    #oc{
+        margin:0 auto;
+    }
+}
